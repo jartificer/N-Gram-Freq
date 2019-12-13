@@ -6,7 +6,7 @@ from urllib.parse import urljoin
 from urllib.request import pathname2url
 
 if len(sys.argv) !=3:
-    print ("Usage:  python ngramfreq pathOfInputTxt pathOfOutputCsv")
+    print ("Usage:  python3 ngramfreq pathOfInputTxt pathOfOutputCsv")
     sys.exit(0)
 url = sys.argv[1]
 url = urljoin('file:', pathname2url(url))
