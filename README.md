@@ -9,4 +9,4 @@ import nltk
 nltk.download('punkt')
 ```
 Usage:  
-```python ngramfreq pathOfInputTxt pathOfOutputCsv```
+```python3 ngramfreq pathOfInputTxt pathOfOutputCsv```
